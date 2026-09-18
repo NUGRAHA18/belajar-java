@@ -4,7 +4,7 @@ public class Latihan1 {
         int resultDiscount = (int) (price * discount / 100);
         int result = price - resultDiscount;  
         System.out.println("Harga awal : " + price);
-        System.out.println("Diskon : " + discount + "%");
+        System.out.println("Diskon : " + discount + " %");
         System.out.println("Harga Akhir : " + result);
 
         return result;
