@@ -6,6 +6,11 @@ class Engine{
     void stop() {
         System.out.println("Engine Mati");
     }
+
+    @Override
+    public String toString() {
+        return "Ini adalah objek Mesin Mobil (V8)";
+    }
 }
 
 // has a class Engine
@@ -25,12 +30,16 @@ class Car{
         engine.stop();
         System.out.println("Mobil berhenti");
     }
+    public String toString() {
+        return "Ini adalah class car";
+    }
 }
 
 public class Main{
     public static void main(String[] args) {
         Car car1 = new Car();
         car1.startCar();
-        car2.stopCar();
+        car1.stopCar();
+        System.out.println(car1);
     }
 }
