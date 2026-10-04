@@ -43,6 +43,5 @@ class Latihan {
         
         System.out.println("Kelompok Anjing : ");
         printAnimal(dogs);
-
     }
 }
